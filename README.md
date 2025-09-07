@@ -1,7 +1,7 @@
 # EN
 # Notepad Project
 
-A simple but functional web-based text editor project built using HTML, CSS, and JavaScript.
+A simple but functional **web-based text editor**  project built using HTML, CSS, and JavaScript.
 
 ## Features
 
@@ -15,10 +15,13 @@ This notepad application allows users to easily edit text. Key features include:
 - **Highlight Button**: Highlight selected text or remove highlights.  
 - **Paragraph Editing**: Use bullets and indentation to format paragraphs.
 
-## Installation
+## Demo
 
-1. Download the files.  
-2. Open `index.html` in your browser.
+You can try the **Notepad application live** directly in your browser by clicking the link below:
+
+➡️ [Open Notepad Web App](https://nisanur025.github.io/notepad-project/notepad/notepad.html)
+
+> **Note:** This project is **not fully responsive**, so the layout may vary on different screen sizes.
 
 ---
 
@@ -38,8 +41,11 @@ Bu notepad uygulaması, kullanıcıların metin üzerinde kolayca düzenleme yap
 - **Find & Replace Butonları**: Belirli kelimeleri bulabilir ve değiştirebilirsiniz.  
 - **Highlight Butonu**: Seçili metni vurgulayabilir veya highlight’ı kaldırabilirsiniz.  
 - **Paragraf Düzenleme**: Madde işaretleri ve girinti (indent) özellikleri ile metni düzenleyebilirsiniz.
-  
-## Kurulum
 
-1. Dosyaları indirin.  
-2. Tarayıcıda `index.html` dosyasını açın.  
+## Demo
+
+Aşağıdaki bağlantıya tıklayarak **Not Defteri uygulamasını** doğrudan tarayıcınızda canlı olarak deneyebilirsiniz:
+
+➡️ [Not Defteri Web Uygulamasını Açın](https://nisanur025.github.io/notepad-project/notepad/notepad.html)
+
+> **Not:** Bu proje **tamamen responsive** olmadığından, farklı ekran boyutlarında görünüm değişebilir.
