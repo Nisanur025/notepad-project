@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.toolbar {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.dropdown-group {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-group button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+    background: #eee;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.dropdown-group button:hover {
+    background: #ddd;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    padding: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    white-space: nowrap;
+}
+
+.dropdown div {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin: 3px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #666;
+}
+
+/* Ribbon stili */
+.ribbon {
+    background-color: rgba(0, 0, 0, 0.261);
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+
+}
+
+.ribbon-group {
+    border-right: 1px solid #ccc;
+    padding-right: 8px;
+    margin-right: 8px;
+    width: 300px;
+}
+
+.ribbon-group:last-child {
+    border-right: none;
+}
+
+.ribbon-group button,
+.ribbon-group select {
+    margin: 2px;
+}
+
+#canvas {
+    background-color: #e6e3e3;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    border: 1px solid #2d2323;
+    min-height: 450px;
+    min-width: 1210px;
+    padding: 10px;
+    display: none;
+    resize: none;
+    /* yeniden boyutlandırmayı kapatır */
+}
+
+#addSection {
+    display: none;
+}
+
+.ribbon-group button.active {
+    background-color: rgba(0, 0, 0, 0.261);
+    color: white;
+}
+
+#downloadBtn {
+    display: none;
+}
+
+.ribbon h6 {
+    color: white;
+}
